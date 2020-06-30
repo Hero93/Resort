@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="ActivityTableViewCell" customModule="Gattarella" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W8z-pp-mLw" userLabel="Container View">
+                        <rect key="frame" x="20" y="8" width="280" height="64"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="IF4-qr-9aw">
+                                <rect key="frame" x="16" y="16" width="87.5" height="32"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DcQ-7q-Lej">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="6x8-6U-Koh"/>
+                                            <constraint firstAttribute="width" constant="32" id="kub-Kg-Rgt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l54-mN-ppA">
+                                        <rect key="frame" x="48" y="6.5" width="39.5" height="19"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4x-Dj-yTM">
+                                <rect key="frame" x="250" y="22" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="YRf-rG-uRK"/>
+                                    <constraint firstAttribute="height" constant="20" id="yjH-9Q-zo5"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="next"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="activityCellBackground"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="V4x-Dj-yTM" secondAttribute="trailing" constant="10" id="JJ9-Ol-8GC"/>
+                            <constraint firstItem="V4x-Dj-yTM" firstAttribute="centerY" secondItem="W8z-pp-mLw" secondAttribute="centerY" id="iAR-Vk-G7S"/>
+                            <constraint firstItem="IF4-qr-9aw" firstAttribute="leading" secondItem="W8z-pp-mLw" secondAttribute="leading" constant="16" id="qJG-nf-Nmp"/>
+                            <constraint firstItem="IF4-qr-9aw" firstAttribute="centerY" secondItem="W8z-pp-mLw" secondAttribute="centerY" id="s3O-tF-Zl8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="W8z-pp-mLw" secondAttribute="bottom" constant="8" id="NOM-zF-1QZ"/>
+                    <constraint firstItem="W8z-pp-mLw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Y9i-ww-gfr"/>
+                    <constraint firstItem="W8z-pp-mLw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cMk-Ej-sOM"/>
+                    <constraint firstAttribute="trailing" secondItem="W8z-pp-mLw" secondAttribute="trailing" constant="20" id="gDb-qj-Xdl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="W8z-pp-mLw" id="AVw-yu-kll"/>
+                <outlet property="detailButton" destination="V4x-Dj-yTM" id="iPk-Lj-9Jw"/>
+                <outlet property="logoImageView" destination="DcQ-7q-Lej" id="xLG-7d-WlZ"/>
+                <outlet property="titleLabel" destination="l54-mN-ppA" id="CAQ-S2-lDr"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="161.38392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="next" width="512" height="512"/>
+        <namedColor name="activityCellBackground">
+            <color red="1" green="1" blue="1" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

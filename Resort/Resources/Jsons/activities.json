@@ -1,0 +1,70 @@
+[
+   {
+      "id": 1,
+      "title":"Programma della giornata",
+      "type":1,
+      "url":"https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "subActivities":null
+   },
+   {
+      "id": 2,
+      "title":"Ristoranti",
+      "type":2,
+      "url":"http://www.google.com",
+      "subActivities":[
+         {
+            "id": 3,
+            "title":"Ristorante",
+            "type":2,
+            "latitude": "44.498461",
+            "longitude": "7.723544",
+            "url":"http://www.africau.edu/images/default/sample.pdf",
+            "subActivities":null
+         },
+         {
+            "id": 4,
+            "title":"Ristorante 2",
+            "type":2,
+            "latitude": "44.501950",
+            "longitude": "7.723088",
+            "url":"https://www.adobe.com/support/products/enterprise/knowledgecenter/media/c4611_sample_explain.pdf",
+            "subActivities":null
+         }
+      ]
+   },
+   {
+      "id": 5,
+      "title":"Bar",
+      "type":3,
+      "url":"http://www.google.com",
+      "subActivities":[
+         {
+            "id": 6,
+            "title":"Bar",
+            "type":3,
+            "latitude": "44.504210",
+            "longitude": "7.721098",
+            "url":"http://www.pdf995.com/samples/pdf.pdf",
+            "subActivities":null
+         },
+         {
+            "id": 7,
+            "title":"Bar 2",
+            "type":3,
+            "latitude": "44.506224",
+            "longitude": "7.724531",
+            "url":"https://gahp.net/wp-content/uploads/2017/09/sample.pdf",
+            "subActivities":null
+         }
+      ]
+   },
+   {
+      "id": 8,
+      "title":"Programmi del miniclub",
+      "type":4,
+      "latitude": "44.510376",
+      "longitude": "7.721571",
+      "url":"http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf",
+      "subActivities":null
+   }
+]

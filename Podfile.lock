@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.0)
+  - BWWalkthrough (4.0.0)
+  - QRCodeReader.swift (10.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BWWalkthrough
+  - QRCodeReader.swift (~> 10.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BWWalkthrough
+    - QRCodeReader.swift
+
+SPEC CHECKSUMS:
+  Alamofire: c1ca147559e730bfb2182c8c7aafbdd90a867987
+  BWWalkthrough: 9f46edbd1a145c74f3e5287b01cb4a884c840bf2
+  QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
+
+PODFILE CHECKSUM: 623daf7ef35b93d3c1ce6056e413bf528f83826b
+
+COCOAPODS: 1.9.3

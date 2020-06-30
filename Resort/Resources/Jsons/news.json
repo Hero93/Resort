@@ -1,0 +1,39 @@
+[
+   {
+      "id": 1,
+      "date":"2020-06-15'T'09:00:00",
+      "title":"Test News 1",
+      "content":"Content - Test News 1 - Test News 1"
+   },
+   {
+      "id":2,
+      "date":"2020-06-16'T'09:00:00",
+      "title":"Test News 2",
+      "content":"Content - Test News 2"
+   },
+   {
+      "id": 3,
+      "date":"2020-06-17'T'09:00:00",
+      "title":"Test News 3",
+      "content":"Content - Test News 3"
+   },
+   {
+      "id": 4,
+      "date":"2020-06-18'T'09:00:00",
+      "title":"Test News 4",
+      "content":"Content - Test News 4"
+   },
+   {
+      "id": 5,
+      "date":"2020-06-19'T'09:00:00",
+      "title":"Test News 5",
+      "content":"Content - Test News 5"
+   },
+   {
+      "id": 6,
+      "date":"2020-06-20'T'09:00:00",
+      "title":"Test News 6",
+      "content":"Content - Test News 6"
+   }
+]
+

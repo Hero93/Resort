@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Resort
+
+  Created by Luca LG. Gramaglia on 15/06/2020.
+  Copyright © 2020 lucagramaglia. All rights reserved.
+*/
+
+"app.name" = "Resort";
+
+"tabbar.title.activities" = "Attività-Servizi";
+"tabbar.title.news" = "Comunicazioni";
+"tabbar.title.get_in_touch" = "Contatti";
+"tabbar.title.qr_code" = "QR Code";
+
+"activities.header.title" = "Attività e servizi";
+"activities.header.subtitle" = "Scopri tutte le attività ed i servizi sempre aggiornati del Resort";
+"activities.media.navbar.title" = "Allegato";
+"activities.segmented_control.list" = "Lista";
+"activities.segmented_control.map" = "Mappa";
+
+"get_in_touch.header.title" = "Contattaci";
+"get_in_touch.header.subtitle" = "Siamo sempre a tua disposizione per qualsiasi necessità";
+
+"news.detail.title" = "Comunicazione";
+
+"qrcode.title" = "Inquadra i QR Code";
+"qrcode.description" = "Inquadra i QR Code che trovi vicino ai posti di interesse all’interno del resort, potrai acquisire informazioni senza contatto, nel completo rispetto delle norme igieniche.";
+"qrcode.confirm_button" = "Ho capito";
+"qrcode.cancel_button" = "Cancella";

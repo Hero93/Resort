@@ -1,0 +1,11 @@
+{
+  "name": "Example Resort",
+  "address": "12040 Cuneo CN",
+  "phone_numbers": [
+    "+39 0172 111 111",
+    "+39 0172 123 123",
+  ],
+    
+  "email": "example@resort.com",
+  "vat_number": "01010101"
+}

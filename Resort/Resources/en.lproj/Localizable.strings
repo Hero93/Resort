@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Resort
+
+  Created by Luca LG. Gramaglia on 15/06/2020.
+  Copyright © 2020 lucagramaglia. All rights reserved.
+*/
+
+"app.name" = "Resort";
+
+"tabbar.title.activities" = "Activities";
+"tabbar.title.news" = "News";
+"tabbar.title.get_in_touch" = "Get in touch";
+"tabbar.title.qr_code" = "QR Code";
+
+"activities.header.title" = "Activities & services";
+"activities.header.subtitle" = "Find out all the up-to-date Resort's activities and services";
+"activities.media.navbar.title" = "Attachment";
+"activities.segmented_control.list" = "List";
+"activities.segmented_control.map" = "Map";
+
+"get_in_touch.header.title" = "Get in touch";
+"get_in_touch.header.subtitle" = "We are always available for every necessity";
+
+"news.detail.title" = "News";
+
+"qrcode.title" = "Scan the QR Codes";
+"qrcode.description" = "Scan the QR Codes that you'll find in the point of interest inside the resort, you'll get informations you need.";
+"qrcode.confirm_button" = "I understood";
+"qrcode.cancel_button" = "Cancel";

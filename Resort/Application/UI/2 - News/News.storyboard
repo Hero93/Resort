@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Comunicazioni-->
+        <scene sceneID="rZW-Ta-ZI8">
+            <objects>
+                <viewController storyboardIdentifier="NewsListVC" id="kSz-WM-Qtc" customClass="NewsListVC" customModule="Gattarella" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wkg-Em-zeR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-Co-qJ1">
+                                <rect key="frame" x="0.0" y="64" width="414" height="798"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="YCY-tm-S7l">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" name="newsBackground"/>
+                        <constraints>
+                            <constraint firstItem="0lJ-Co-qJ1" firstAttribute="leading" secondItem="N21-za-B8o" secondAttribute="leading" id="1U8-3R-OXA"/>
+                            <constraint firstItem="0lJ-Co-qJ1" firstAttribute="top" secondItem="N21-za-B8o" secondAttribute="top" constant="20" id="8GH-pK-bFX"/>
+                            <constraint firstItem="N21-za-B8o" firstAttribute="bottom" secondItem="0lJ-Co-qJ1" secondAttribute="bottom" id="C0d-11-bL6"/>
+                            <constraint firstItem="N21-za-B8o" firstAttribute="trailing" secondItem="0lJ-Co-qJ1" secondAttribute="trailing" id="NHd-4b-N7P"/>
+                            <constraint firstItem="YCY-tm-S7l" firstAttribute="centerX" secondItem="wkg-Em-zeR" secondAttribute="centerX" id="TDK-Iv-vW0"/>
+                            <constraint firstItem="YCY-tm-S7l" firstAttribute="centerY" secondItem="wkg-Em-zeR" secondAttribute="centerY" id="uov-DZ-hii"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N21-za-B8o"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Comunicazioni" id="DXK-Rg-7b5"/>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="YCY-tm-S7l" id="iJV-1y-xHC"/>
+                        <outlet property="newsTableView" destination="0lJ-Co-qJ1" id="6EV-o9-GMl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AS4-Bc-hbK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336" y="805"/>
+        </scene>
+        <!--Comunicazioni-->
+        <scene sceneID="2l8-7T-GAl">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailWebVC" id="wXO-1F-3Zy" customClass="NewsDetailWebVC" customModule="Gattarella" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sQU-YU-i39">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1my-IW-ND2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" name="newsBackground"/>
+                        <constraints>
+                            <constraint firstItem="1my-IW-ND2" firstAttribute="leading" secondItem="d9s-Nt-SAB" secondAttribute="leading" id="6AM-tS-K2o"/>
+                            <constraint firstItem="d9s-Nt-SAB" firstAttribute="bottom" secondItem="1my-IW-ND2" secondAttribute="bottom" id="YTS-6H-u7A"/>
+                            <constraint firstItem="1my-IW-ND2" firstAttribute="top" secondItem="d9s-Nt-SAB" secondAttribute="top" id="avK-x6-Jw1"/>
+                            <constraint firstItem="d9s-Nt-SAB" firstAttribute="trailing" secondItem="1my-IW-ND2" secondAttribute="trailing" id="xuh-DQ-xDn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d9s-Nt-SAB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Comunicazioni" id="eDf-PB-DjS"/>
+                    <connections>
+                        <outlet property="wkWebView" destination="1my-IW-ND2" id="u49-r8-rSZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KxO-au-mrU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-762" y="1502"/>
+        </scene>
+        <!--Comunicazioni-->
+        <scene sceneID="442-Bf-VnO">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailVC" id="xCb-95-Abf" customClass="NewsDetailVC" customModule="Gattarella" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mHe-QV-zia">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K8D-Vx-x3i">
+                                <rect key="frame" x="12" y="89" width="386" height="757"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBJ-pf-9dM">
+                                <rect key="frame" x="16" y="60" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="newsBackground"/>
+                        <constraints>
+                            <constraint firstItem="K8D-Vx-x3i" firstAttribute="top" secondItem="QBJ-pf-9dM" secondAttribute="bottom" constant="8" id="1FJ-cA-wcb"/>
+                            <constraint firstItem="K8D-Vx-x3i" firstAttribute="leading" secondItem="zsG-dP-Igf" secondAttribute="leading" constant="12" id="BrV-XT-7wu"/>
+                            <constraint firstItem="zsG-dP-Igf" firstAttribute="trailing" secondItem="QBJ-pf-9dM" secondAttribute="trailing" constant="16" id="MO3-W1-Q7S"/>
+                            <constraint firstItem="QBJ-pf-9dM" firstAttribute="leading" secondItem="zsG-dP-Igf" secondAttribute="leading" constant="16" id="oSk-NB-K2N"/>
+                            <constraint firstItem="zsG-dP-Igf" firstAttribute="bottom" secondItem="K8D-Vx-x3i" secondAttribute="bottom" constant="16" id="thn-5r-ntl"/>
+                            <constraint firstItem="zsG-dP-Igf" firstAttribute="trailing" secondItem="K8D-Vx-x3i" secondAttribute="trailing" constant="16" id="wak-Pb-EgM"/>
+                            <constraint firstItem="QBJ-pf-9dM" firstAttribute="top" secondItem="zsG-dP-Igf" secondAttribute="top" constant="16" id="yOb-Wj-pZm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zsG-dP-Igf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Comunicazioni" id="bvt-0V-6Q5"/>
+                    <connections>
+                        <outlet property="contentTextView" destination="K8D-Vx-x3i" id="QJr-6A-C2d"/>
+                        <outlet property="titleLabel" destination="QBJ-pf-9dM" id="H9T-q7-djo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7m2-q1-M4F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="1502"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="newsBackground">
+            <color red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
