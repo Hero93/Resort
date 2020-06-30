@@ -1,6 +1,6 @@
 # Resort
 iOS Best Code Practice Study
 
-Loader
-Controller
-Coordinator
+- Loader
+- Controller
+- Coordinator
