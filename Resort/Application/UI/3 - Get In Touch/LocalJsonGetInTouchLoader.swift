@@ -10,7 +10,7 @@ import UIKit
 
 struct LocalJsonGetInTouchLoader: GetInTouchLoader {
     
-    func load(completion: (Result<GetInTouchInfo, Error>) -> Void) {
+    func load(completion: (Result<ResortInfo, Error>) -> Void) {
                 
         guard let jsonUrl = Bundle.main.url(forResource: "contacts", withExtension: "json") else {
             completion(.failure(CustomError(message: "Can't find 'contacts.json'")))
@@ -22,11 +22,11 @@ struct LocalJsonGetInTouchLoader: GetInTouchLoader {
             return
         }
                 
-        guard let dto = try? JSONDecoder().decode(GetInTouchInfoDTO.self, from: jsonData) else {
+        guard let dto = try? JSONDecoder().decode(ResortInfoDTO.self, from: jsonData) else {
                 completion(.failure(CustomError(message: "Can't parse 'contacts.json' content")))
             return
         }
-                
-        completion(.success(GetInTouchInfoDTOMapper.map(dto)))
+    
+        completion(.success(dto.toDomain()))
     }
 }

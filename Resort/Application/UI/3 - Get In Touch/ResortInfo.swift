@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct GetInTouchInfo {
+struct ResortInfo {
     let name: String
     let address: String
     let phoneNumbers: [String]

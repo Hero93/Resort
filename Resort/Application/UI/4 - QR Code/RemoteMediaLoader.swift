@@ -19,7 +19,7 @@ class RemoteMediaLoader: MediaLoader {
                 
             case .success(let mediaDTO):
                 print("\(mediaDTO)")
-                completion(.success(MediaDTOMapper.map(mediaDTO)))
+                completion(.success(mediaDTO.toDomain()))
             
             case .error(let wsError):
                 print("\(wsError)")

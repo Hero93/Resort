@@ -11,7 +11,7 @@
 		29065C1C249B7995009FB552 /* WKWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29065C1B249B7995009FB552 /* WKWebViewVC.swift */; };
 		29065C1E249B7B77009FB552 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29065C1D249B7B77009FB552 /* WebKit.framework */; };
 		2914D70B249A789F00E0FD23 /* RemoteActivityListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914D70A249A789F00E0FD23 /* RemoteActivityListLoader.swift */; };
-		2921C25024992D8100E001E2 /* GetInTouchInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921C24F24992D8100E001E2 /* GetInTouchInfoDTO.swift */; };
+		2921C25024992D8100E001E2 /* ResortInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921C24F24992D8100E001E2 /* ResortInfoDTO.swift */; };
 		2921C252249937D800E001E2 /* GetInTouchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921C251249937D800E001E2 /* GetInTouchCoordinator.swift */; };
 		2925F4CF24938768007AFE3C /* MyWalkthroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F4CE24938768007AFE3C /* MyWalkthroughVC.swift */; };
 		2925F4D1249387B9007AFE3C /* MyWalkthroughVC+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F4D0249387B9007AFE3C /* MyWalkthroughVC+Create.swift */; };
@@ -30,7 +30,7 @@
 		295005EA2497CB62008B4D95 /* UITableView+DequeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295005E82497CB61008B4D95 /* UITableView+DequeCell.swift */; };
 		295005EB2497CB62008B4D95 /* UITableView+RegisterNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295005E92497CB62008B4D95 /* UITableView+RegisterNib.swift */; };
 		29633B4C2498CB660039FB20 /* ActivityListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29633B4B2498CB660039FB20 /* ActivityListCoordinator.swift */; };
-		29633B502498CCAE0039FB20 /* ActivityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29633B4F2498CCAE0039FB20 /* ActivityDTO.swift */; };
+		29633B502498CCAE0039FB20 /* LocalMediaDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29633B4F2498CCAE0039FB20 /* LocalMediaDTO+Mapping.swift */; };
 		2964F345249A5EB6002B984E /* NewsDetailWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964F344249A5EB6002B984E /* NewsDetailWebVC.swift */; };
 		2964F347249A5F66002B984E /* NewsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964F346249A5F66002B984E /* NewsDetailVC.swift */; };
 		2964F349249A60C2002B984E /* String+HtmlAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964F348249A60C2002B984E /* String+HtmlAttributedString.swift */; };
@@ -69,7 +69,7 @@
 		29FD647E249A22990086D1DF /* NewsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD647D249A22990086D1DF /* NewsListController.swift */; };
 		29FD6480249A22B40086D1DF /* NewsListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD647F249A22B40086D1DF /* NewsListLoader.swift */; };
 		29FD6482249A22CD0086D1DF /* LocalJsonGetInTouchLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD6481249A22CD0086D1DF /* LocalJsonGetInTouchLoader.swift */; };
-		29FD6486249A28BF0086D1DF /* NewsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD6485249A28BF0086D1DF /* NewsDTO.swift */; };
+		29FD6486249A28BF0086D1DF /* WordpressNewsDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD6485249A28BF0086D1DF /* WordpressNewsDTO+Mapping.swift */; };
 		29FD6488249A2A2B0086D1DF /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD6487249A2A2B0086D1DF /* News.swift */; };
 		4B0125BA24980A69007816AC /* ActivityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0125B924980A69007816AC /* ActivityListController.swift */; };
 		4B0125BC24980F74007816AC /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0125BB24980F74007816AC /* CellConfigurable.swift */; };
@@ -83,7 +83,7 @@
 		4B10D28D2495ABB000752BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B10D28C2495ABB000752BBD /* Main.storyboard */; };
 		4B16559E24AA74F7008690FA /* LocalJsonNewsListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16559D24AA74F7008690FA /* LocalJsonNewsListLoader.swift */; };
 		4B1655A024AA7733008690FA /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B16559F24AA7733008690FA /* news.json */; };
-		4B1655A224AA7E55008690FA /* NewsJsonDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1655A124AA7E55008690FA /* NewsJsonDTO.swift */; };
+		4B1655A224AA7E55008690FA /* LocalNewsDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1655A124AA7E55008690FA /* LocalNewsDTO+Mapping.swift */; };
 		4B1DCD9E249C16FB00890E68 /* QRCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DCD9D249C16FB00890E68 /* QRCodeViewModel.swift */; };
 		4B1DCDA2249C1A9B00890E68 /* MediaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DCDA1249C1A9B00890E68 /* MediaLoader.swift */; };
 		4B1DCDA6249C1ECA00890E68 /* RemoteMediaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DCDA5249C1ECA00890E68 /* RemoteMediaLoader.swift */; };
@@ -95,10 +95,9 @@
 		4B3DB97124981F35009022E5 /* activities.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3DB97024981F35009022E5 /* activities.json */; };
 		4B3DB9732498264D009022E5 /* ActivityLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DB9722498264D009022E5 /* ActivityLoader.swift */; };
 		4B670ABF24A167F4001ADFF9 /* MKMapKit+DequeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B670ABE24A167F4001ADFF9 /* MKMapKit+DequeAnnotationView.swift */; };
-		4B73E53D249ABCFC0059138A /* APIClient+VillageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73E53C249ABCFC0059138A /* APIClient+VillageInfo.swift */; };
-		4B73E53F249ABDB90059138A /* ResortInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73E53E249ABDB90059138A /* ResortInfoDTO.swift */; };
+		4B73E53D249ABCFC0059138A /* APIClient+ResortInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73E53C249ABCFC0059138A /* APIClient+ResortInfo.swift */; };
 		4B73E541249ABF0F0059138A /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B73E540249ABF0F0059138A /* News.storyboard */; };
-		4B73E543249AC2E20059138A /* MediaDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73E542249AC2E20059138A /* MediaDTO.swift */; };
+		4B73E543249AC2E20059138A /* WordpressMediaDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B73E542249AC2E20059138A /* WordpressMediaDTO+Mapping.swift */; };
 		4B9534282496500F00803DE1 /* NewsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9534272496500F00803DE1 /* NewsListVC.swift */; };
 		4B95342A2496501E00803DE1 /* GetInTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9534292496501E00803DE1 /* GetInTouchVC.swift */; };
 		4B95342C2496503800803DE1 /* QRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95342B2496503800803DE1 /* QRCodeVC.swift */; };
@@ -111,7 +110,7 @@
 		4B95343A24965D4C00803DE1 /* ActivitiesMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95343924965D4C00803DE1 /* ActivitiesMapVC.swift */; };
 		4B95343C24965DCD00803DE1 /* GetInTouchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95343B24965DCD00803DE1 /* GetInTouchViewModel.swift */; };
 		4B95343E2496609800803DE1 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B95343D2496609800803DE1 /* contacts.json */; };
-		4B9534402496611000803DE1 /* GetInTouchInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95343F2496611000803DE1 /* GetInTouchInfo.swift */; };
+		4B9534402496611000803DE1 /* ResortInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95343F2496611000803DE1 /* ResortInfo.swift */; };
 		4B9534422496646100803DE1 /* ActivitiesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9534412496646100803DE1 /* ActivitiesCoordinator.swift */; };
 		4B953444249664C600803DE1 /* NewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B953443249664C600803DE1 /* NewsCoordinator.swift */; };
 		4B9534482496653400803DE1 /* QRCodeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9534472496653400803DE1 /* QRCodeCoordinator.swift */; };
@@ -137,7 +136,7 @@
 		29065C1B249B7995009FB552 /* WKWebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewVC.swift; sourceTree = "<group>"; };
 		29065C1D249B7B77009FB552 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2914D70A249A789F00E0FD23 /* RemoteActivityListLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteActivityListLoader.swift; sourceTree = "<group>"; };
-		2921C24F24992D8100E001E2 /* GetInTouchInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInTouchInfoDTO.swift; sourceTree = "<group>"; };
+		2921C24F24992D8100E001E2 /* ResortInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfoDTO.swift; sourceTree = "<group>"; };
 		2921C251249937D800E001E2 /* GetInTouchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInTouchCoordinator.swift; sourceTree = "<group>"; };
 		2925F4CE24938768007AFE3C /* MyWalkthroughVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalkthroughVC.swift; sourceTree = "<group>"; };
 		2925F4D0249387B9007AFE3C /* MyWalkthroughVC+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyWalkthroughVC+Create.swift"; sourceTree = "<group>"; };
@@ -156,7 +155,7 @@
 		295005E82497CB61008B4D95 /* UITableView+DequeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+DequeCell.swift"; sourceTree = "<group>"; };
 		295005E92497CB62008B4D95 /* UITableView+RegisterNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterNib.swift"; sourceTree = "<group>"; };
 		29633B4B2498CB660039FB20 /* ActivityListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListCoordinator.swift; sourceTree = "<group>"; };
-		29633B4F2498CCAE0039FB20 /* ActivityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDTO.swift; sourceTree = "<group>"; };
+		29633B4F2498CCAE0039FB20 /* LocalMediaDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalMediaDTO+Mapping.swift"; sourceTree = "<group>"; };
 		2964F344249A5EB6002B984E /* NewsDetailWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailWebVC.swift; sourceTree = "<group>"; };
 		2964F346249A5F66002B984E /* NewsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailVC.swift; sourceTree = "<group>"; };
 		2964F348249A60C2002B984E /* String+HtmlAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HtmlAttributedString.swift"; sourceTree = "<group>"; };
@@ -202,7 +201,7 @@
 		29FD647D249A22990086D1DF /* NewsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListController.swift; sourceTree = "<group>"; };
 		29FD647F249A22B40086D1DF /* NewsListLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListLoader.swift; sourceTree = "<group>"; };
 		29FD6481249A22CD0086D1DF /* LocalJsonGetInTouchLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonGetInTouchLoader.swift; sourceTree = "<group>"; };
-		29FD6485249A28BF0086D1DF /* NewsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDTO.swift; sourceTree = "<group>"; };
+		29FD6485249A28BF0086D1DF /* WordpressNewsDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordpressNewsDTO+Mapping.swift"; sourceTree = "<group>"; };
 		29FD6487249A2A2B0086D1DF /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		4B0125B924980A69007816AC /* ActivityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListController.swift; sourceTree = "<group>"; };
 		4B0125BB24980F74007816AC /* CellConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
@@ -216,7 +215,7 @@
 		4B10D28C2495ABB000752BBD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4B16559D24AA74F7008690FA /* LocalJsonNewsListLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonNewsListLoader.swift; sourceTree = "<group>"; };
 		4B16559F24AA7733008690FA /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
-		4B1655A124AA7E55008690FA /* NewsJsonDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsJsonDTO.swift; sourceTree = "<group>"; };
+		4B1655A124AA7E55008690FA /* LocalNewsDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalNewsDTO+Mapping.swift"; sourceTree = "<group>"; };
 		4B1DCD9D249C16FB00890E68 /* QRCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewModel.swift; sourceTree = "<group>"; };
 		4B1DCDA1249C1A9B00890E68 /* MediaLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLoader.swift; sourceTree = "<group>"; };
 		4B1DCDA5249C1ECA00890E68 /* RemoteMediaLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMediaLoader.swift; sourceTree = "<group>"; };
@@ -228,10 +227,9 @@
 		4B3DB97024981F35009022E5 /* activities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activities.json; sourceTree = "<group>"; };
 		4B3DB9722498264D009022E5 /* ActivityLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLoader.swift; sourceTree = "<group>"; };
 		4B670ABE24A167F4001ADFF9 /* MKMapKit+DequeAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapKit+DequeAnnotationView.swift"; sourceTree = "<group>"; };
-		4B73E53C249ABCFC0059138A /* APIClient+VillageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+VillageInfo.swift"; sourceTree = "<group>"; };
-		4B73E53E249ABDB90059138A /* ResortInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfoDTO.swift; sourceTree = "<group>"; };
+		4B73E53C249ABCFC0059138A /* APIClient+ResortInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+ResortInfo.swift"; sourceTree = "<group>"; };
 		4B73E540249ABF0F0059138A /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
-		4B73E542249AC2E20059138A /* MediaDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDTO.swift; sourceTree = "<group>"; };
+		4B73E542249AC2E20059138A /* WordpressMediaDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordpressMediaDTO+Mapping.swift"; sourceTree = "<group>"; };
 		4B9534272496500F00803DE1 /* NewsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVC.swift; sourceTree = "<group>"; };
 		4B9534292496501E00803DE1 /* GetInTouchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInTouchVC.swift; sourceTree = "<group>"; };
 		4B95342B2496503800803DE1 /* QRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeVC.swift; sourceTree = "<group>"; };
@@ -244,7 +242,7 @@
 		4B95343924965D4C00803DE1 /* ActivitiesMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesMapVC.swift; sourceTree = "<group>"; };
 		4B95343B24965DCD00803DE1 /* GetInTouchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInTouchViewModel.swift; sourceTree = "<group>"; };
 		4B95343D2496609800803DE1 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
-		4B95343F2496611000803DE1 /* GetInTouchInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInTouchInfo.swift; sourceTree = "<group>"; };
+		4B95343F2496611000803DE1 /* ResortInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortInfo.swift; sourceTree = "<group>"; };
 		4B9534412496646100803DE1 /* ActivitiesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesCoordinator.swift; sourceTree = "<group>"; };
 		4B953443249664C600803DE1 /* NewsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinator.swift; sourceTree = "<group>"; };
 		4B9534472496653400803DE1 /* QRCodeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCoordinator.swift; sourceTree = "<group>"; };
@@ -503,7 +501,7 @@
 			isa = PBXGroup;
 			children = (
 				29F796852492346800C93E8B /* APIRouter.swift */,
-				29F796992492378100C93E8B /* DTOModels */,
+				29F796992492378100C93E8B /* DataMapping */,
 				4B73E53B249ABCDA0059138A /* APIClient */,
 				29F796832492344D00C93E8B /* RequestInterceptor.swift */,
 			);
@@ -554,18 +552,15 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		29F796992492378100C93E8B /* DTOModels */ = {
+		29F796992492378100C93E8B /* DataMapping */ = {
 			isa = PBXGroup;
 			children = (
-				29633B4F2498CCAE0039FB20 /* ActivityDTO.swift */,
-				2921C24F24992D8100E001E2 /* GetInTouchInfoDTO.swift */,
 				29C1059A249A4A6B006B5D6A /* MediaCategoryDTO.swift */,
-				4B73E542249AC2E20059138A /* MediaDTO.swift */,
-				29FD6485249A28BF0086D1DF /* NewsDTO.swift */,
-				4B1655A124AA7E55008690FA /* NewsJsonDTO.swift */,
-				4B73E53E249ABDB90059138A /* ResortInfoDTO.swift */,
+				4B6C4CD024B526AD00291B97 /* Media */,
+				4B6C4CCF24B5254700291B97 /* News */,
+				2921C24F24992D8100E001E2 /* ResortInfoDTO.swift */,
 			);
-			path = DTOModels;
+			path = DataMapping;
 			sourceTree = "<group>";
 		};
 		29FD647B249A22350086D1DF /* cell */ = {
@@ -654,13 +649,31 @@
 			name = ActivityTableViewCell;
 			sourceTree = "<group>";
 		};
+		4B6C4CCF24B5254700291B97 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4B1655A124AA7E55008690FA /* LocalNewsDTO+Mapping.swift */,
+				29FD6485249A28BF0086D1DF /* WordpressNewsDTO+Mapping.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		4B6C4CD024B526AD00291B97 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				29633B4F2498CCAE0039FB20 /* LocalMediaDTO+Mapping.swift */,
+				4B73E542249AC2E20059138A /* WordpressMediaDTO+Mapping.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		4B73E53B249ABCDA0059138A /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
 				29F7967F2492336E00C93E8B /* APIClient.swift */,
 				29F7968B2492357E00C93E8B /* APIClient+Media.swift */,
 				29C1059E249A58E5006B5D6A /* APIClient+News.swift */,
-				4B73E53C249ABCFC0059138A /* APIClient+VillageInfo.swift */,
+				4B73E53C249ABCFC0059138A /* APIClient+ResortInfo.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -726,7 +739,7 @@
 			children = (
 				4B95343B24965DCD00803DE1 /* GetInTouchViewModel.swift */,
 				4B9534292496501E00803DE1 /* GetInTouchVC.swift */,
-				4B95343F2496611000803DE1 /* GetInTouchInfo.swift */,
+				4B95343F2496611000803DE1 /* ResortInfo.swift */,
 				2921C251249937D800E001E2 /* GetInTouchCoordinator.swift */,
 				4B2DE4DA249972CC00058EEE /* GetInTouchController.swift */,
 				4B2DE4DC2499738700058EEE /* GetInTouchLoader.swift */,
@@ -944,7 +957,7 @@
 				4B953444249664C600803DE1 /* NewsCoordinator.swift in Sources */,
 				4B0125BA24980A69007816AC /* ActivityListController.swift in Sources */,
 				4B95343824965D3D00803DE1 /* ActivityListVC.swift in Sources */,
-				4B1655A224AA7E55008690FA /* NewsJsonDTO.swift in Sources */,
+				4B1655A224AA7E55008690FA /* LocalNewsDTO+Mapping.swift in Sources */,
 				29C1059F249A58E5006B5D6A /* APIClient+News.swift in Sources */,
 				4B0C24D3249F8FE90087ABA5 /* ActivityMapViewModel.swift in Sources */,
 				29F79696249236FD00C93E8B /* AlertViewManager.swift in Sources */,
@@ -975,9 +988,9 @@
 				2925F4CF24938768007AFE3C /* MyWalkthroughVC.swift in Sources */,
 				4B2DE4DD2499738700058EEE /* GetInTouchLoader.swift in Sources */,
 				4B9534482496653400803DE1 /* QRCodeCoordinator.swift in Sources */,
-				4B73E543249AC2E20059138A /* MediaDTO.swift in Sources */,
+				4B73E543249AC2E20059138A /* WordpressMediaDTO+Mapping.swift in Sources */,
 				4B1DCDA6249C1ECA00890E68 /* RemoteMediaLoader.swift in Sources */,
-				29FD6486249A28BF0086D1DF /* NewsDTO.swift in Sources */,
+				29FD6486249A28BF0086D1DF /* WordpressNewsDTO+Mapping.swift in Sources */,
 				4B2DE4DB249972CC00058EEE /* GetInTouchController.swift in Sources */,
 				2925F4D1249387B9007AFE3C /* MyWalkthroughVC+Create.swift in Sources */,
 				4B9534422496646100803DE1 /* ActivitiesCoordinator.swift in Sources */,
@@ -993,7 +1006,7 @@
 				29065C1A249B5235009FB552 /* Array+Unique.swift in Sources */,
 				29065C1C249B7995009FB552 /* WKWebViewVC.swift in Sources */,
 				4B1DCD9E249C16FB00890E68 /* QRCodeViewModel.swift in Sources */,
-				4B9534402496611000803DE1 /* GetInTouchInfo.swift in Sources */,
+				4B9534402496611000803DE1 /* ResortInfo.swift in Sources */,
 				29C1059D249A588D006B5D6A /* RemoteNewsListLoader.swift in Sources */,
 				29FD6477249A20890086D1DF /* NewsTableViewCell.swift in Sources */,
 				29C1059B249A4A6B006B5D6A /* MediaCategoryDTO.swift in Sources */,
@@ -1003,15 +1016,14 @@
 				29FD6482249A22CD0086D1DF /* LocalJsonGetInTouchLoader.swift in Sources */,
 				295005D62497ACC5008B4D95 /* Container.swift in Sources */,
 				296CE5A924A116C4002CA1F5 /* ActivityMapCoordinator.swift in Sources */,
-				4B73E53D249ABCFC0059138A /* APIClient+VillageInfo.swift in Sources */,
+				4B73E53D249ABCFC0059138A /* APIClient+ResortInfo.swift in Sources */,
 				29F796842492344D00C93E8B /* RequestInterceptor.swift in Sources */,
 				29F796882492352300C93E8B /* Constants.swift in Sources */,
 				4B95342C2496503800803DE1 /* QRCodeVC.swift in Sources */,
 				4B95342E2496512700803DE1 /* CustomHeader.swift in Sources */,
 				2964F349249A60C2002B984E /* String+HtmlAttributedString.swift in Sources */,
-				4B73E53F249ABDB90059138A /* ResortInfoDTO.swift in Sources */,
-				2921C25024992D8100E001E2 /* GetInTouchInfoDTO.swift in Sources */,
-				29633B502498CCAE0039FB20 /* ActivityDTO.swift in Sources */,
+				2921C25024992D8100E001E2 /* ResortInfoDTO.swift in Sources */,
+				29633B502498CCAE0039FB20 /* LocalMediaDTO+Mapping.swift in Sources */,
 				4B9534322496547500803DE1 /* NibLoadable.swift in Sources */,
 				4B9534362496575C00803DE1 /* MainTabBarController.swift in Sources */,
 				2925F4D324938835007AFE3C /* MainCoordinator.swift in Sources */,

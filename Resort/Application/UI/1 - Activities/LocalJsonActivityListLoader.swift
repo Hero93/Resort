@@ -22,12 +22,12 @@ struct LocalJsonActivityListLoader: ActivityListLoader {
             return
         }
                 
-        guard let activitiesDTO = try? JSONDecoder().decode([ActivityDTO].self, from: jsonData) else {
+        guard let activitiesDTO = try? JSONDecoder().decode([LocalMediaDTO].self, from: jsonData) else {
                 completion(.failure(CustomError(message: "Can't parse 'activities.json' content")))
             return
         }
                 
-        let activities = activitiesDTO.map { ActivityDTOMapper.map($0) }
+        let activities = activitiesDTO.map { $0.toDomain() }
         completion(.success(activities))
     }
 }

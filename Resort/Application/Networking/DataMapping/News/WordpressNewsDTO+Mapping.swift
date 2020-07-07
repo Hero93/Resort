@@ -33,15 +33,21 @@ struct Content: Codable {
     let rendered: String
 }
 
-struct NewsWordpressDTOMapper {
-    static func map(_ dto: NewsWordpressDTO) -> News {
-        
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
-        
-        return News(id: dto.id,
-                    date: dateFormatter.date(from: dto.date),
-                    title: dto.title.rendered,
-                    content: dto.content.rendered)
+extension NewsWordpressDTO {
+    
+    func toDomain() -> News {
+        return News(id: id,
+        date: dateFormatter.date(from: date),
+        title: title.rendered,
+        content: content.rendered)
     }
 }
+
+// MARK: - Private
+
+private let dateFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+    formatter.calendar = Calendar(identifier: .iso8601)
+    return formatter
+}()

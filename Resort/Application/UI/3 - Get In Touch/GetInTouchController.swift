@@ -40,7 +40,7 @@ class GetInTouchController: NSObject {
     
     // MARK: - Data source
     
-    private func buildViewModel(with getInTouchInfo: GetInTouchInfo) {
+    private func buildViewModel(with getInTouchInfo: ResortInfo) {
         self.viewModel.value = GetInTouchViewModel(getInTouchInfo: getInTouchInfo)
     }
 }

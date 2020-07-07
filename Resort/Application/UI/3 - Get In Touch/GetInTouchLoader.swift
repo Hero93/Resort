@@ -9,5 +9,5 @@
 import UIKit
 
 protocol GetInTouchLoader {
-    func load(completion: (Result<GetInTouchInfo, Error>) -> Void)
+    func load(completion: (Result<ResortInfo, Error>) -> Void)
 }

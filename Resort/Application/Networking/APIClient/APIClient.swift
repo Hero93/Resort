@@ -1,7 +1,6 @@
 //
-//
 //  APIClient.swift
-//  BuyTheWay
+//  Resort
 //
 //  Created by Luca LG. Gramaglia on 15/03/2018.
 //  Copyright © 2018 Luca LG. Gramaglia. All rights reserved.

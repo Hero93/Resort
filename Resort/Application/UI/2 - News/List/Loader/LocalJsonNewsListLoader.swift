@@ -22,12 +22,12 @@ class LocalJsonNewsListLoader: NewsListLoader {
             return
         }
         
-        guard let newsJsonDTO = try? JSONDecoder().decode([NewsJsonDTO].self, from: jsonData) else {
+        guard let newsJsonDTO = try? JSONDecoder().decode([LocalNewsDTO].self, from: jsonData) else {
             completion(.failure(CustomError(message: "Can't parse 'news.json' content")))
             return
         }
         
-        let news = newsJsonDTO.map { NewsJsonDTOMapper.map($0) }
+        let news = newsJsonDTO.map { $0.toDomain() }
         completion(.success(news))
     }
 }

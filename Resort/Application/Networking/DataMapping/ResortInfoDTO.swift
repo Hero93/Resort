@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct GetInTouchInfoDTO: Codable {
+struct ResortInfoDTO: Codable {
     let name: String
     let address: String
     let phoneNumbers: [String]
@@ -24,13 +24,13 @@ struct GetInTouchInfoDTO: Codable {
     }
 }
 
-struct GetInTouchInfoDTOMapper {
+extension ResortInfoDTO {
     
-    static func map(_ dto: GetInTouchInfoDTO) -> GetInTouchInfo {
-        return GetInTouchInfo(name: dto.name,
-                              address: dto.address,
-                              phoneNumbers: dto.phoneNumbers,
-                              email: dto.email,
-                              vatNumber: dto.vatNumber)
+    func toDomain() -> ResortInfo {
+        return ResortInfo(name: name,
+                              address: address,
+                              phoneNumbers: phoneNumbers,
+                              email: email,
+                              vatNumber: vatNumber)
     }
 }

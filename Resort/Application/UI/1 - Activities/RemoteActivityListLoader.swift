@@ -32,8 +32,7 @@ class RemoteActivityListLoader: ActivityListLoader {
                             
                             let mediaCategoryDTO: MediaCategoryDTO? = categoriesDTO.filter { $0.id == mediaDTO.mediacategory.first }.first
                             if let mediaCategoryDTO = mediaCategoryDTO {
-                                let activity = MediaCategoryDTOMapper.mapToActivity(mediaCategoryDTO)
-                                return activity
+                                return mediaCategoryDTO.toDomain()
                             } else {
                                 return nil
                             }
@@ -43,7 +42,7 @@ class RemoteActivityListLoader: ActivityListLoader {
                         
                         for (index, activity) in uniqueActivities.enumerated() {
                             let filteredMediaDTOList = mediaDTOList.filter { $0.mediacategory.first == activity.id }
-                            let activityList = filteredMediaDTOList.map { MediaDTOMapper.map($0) }
+                            let activityList = filteredMediaDTOList.map { $0.toDomain() }
                             uniqueActivities[index].subActivities = activityList
                         }
                                                 

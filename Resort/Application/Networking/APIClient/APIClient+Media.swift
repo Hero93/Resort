@@ -1,6 +1,6 @@
 //
 //  APIClient+Account.swift
-//  IperBimbo
+//  Resort
 //
 //  Created by Luca LG. Gramaglia on 23/10/2018.
 //  Copyright © 2018 Luca LG. Gramaglia. All rights reserved.
@@ -28,15 +28,15 @@ extension APIClient {
         performRequest(route: .getMediaCategories, completion: completion)
     }
     
-    func getMediaList(request: MediaListRequest, completion: @escaping (APIResult<[MediaDTO], WsError>)->Void) {
+    func getMediaList(request: MediaListRequest, completion: @escaping (APIResult<[WordpressMediaDTO], WsError>)->Void) {
         performRequest(route: .getMediaList(request), completion: completion)
     }
     
-    private func getMediaInternal(_ request: MediaRequest, completion: @escaping (APIResult<[MediaDTO], WsError>)->Void) {
+    private func getMediaInternal(_ request: MediaRequest, completion: @escaping (APIResult<[WordpressMediaDTO], WsError>)->Void) {
         performRequest(route: .getMedia(request), completion: completion)
     }
     
-    func getMedia(request: MediaRequest, completion: @escaping (APIResult<MediaDTO, WsError>)->Void) {
+    func getMedia(request: MediaRequest, completion: @escaping (APIResult<WordpressMediaDTO, WsError>)->Void) {
         
         APIClient.shared.getMediaInternal(request) { result in
             

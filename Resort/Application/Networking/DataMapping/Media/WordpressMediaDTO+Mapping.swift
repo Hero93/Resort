@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-struct MediaDTO: Codable {
+struct WordpressMediaDTO: Codable {
     let id: Int
     let sourceURL: String
     let caption: Caption
@@ -81,12 +81,13 @@ struct Acf : Codable {
     }
 }
 
-struct MediaDTOMapper {
-    static func map(_ dto: MediaDTO) -> Activity {
-
+extension WordpressMediaDTO {
+    
+    func toDomain() -> Activity {
+        
         var coordinate: CLLocationCoordinate2D? = nil
         
-        switch dto.acf {
+        switch acf {
         case .acfClass(let acfClass):
             
             if let latitude = Double(acfClass.lat),
@@ -98,10 +99,10 @@ struct MediaDTOMapper {
             break
         }
         
-        return Activity(id: dto.id,
-                        title: dto.caption.rendered.htmlAttributedString(font: .systemFont(ofSize: 10)).string,
-                        type: ActivityType(rawValue: dto.mediacategory.first ?? -1) ?? .unknowned,
-                        url: URL(string: dto.sourceURL),
+        return Activity(id: id,
+                        title: caption.rendered.htmlAttributedString(font: .systemFont(ofSize: 10)).string,
+                        type: ActivityType(rawValue: mediacategory.first ?? -1) ?? .unknowned,
+                        url: URL(string: sourceURL),
                         coordinate: coordinate,
                         subActivities: nil)
     }

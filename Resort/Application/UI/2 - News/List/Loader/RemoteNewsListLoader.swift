@@ -16,7 +16,7 @@ class RemoteNewsListLoader: NewsListLoader {
             switch result {
             
             case .success(let newsDTO):
-                let news = newsDTO.map { NewsWordpressDTOMapper.map($0) }
+                let news = newsDTO.map { $0.toDomain() }
                 completion(.success(news))
             
             case .error(let wsError):

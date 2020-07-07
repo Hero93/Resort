@@ -11,9 +11,9 @@ import UIKit
 struct GetInTouchViewModel {
     
     var isLoading = Observable<Bool>(value: false)
-    private let getInTouchInfo: GetInTouchInfo?
+    private let getInTouchInfo: ResortInfo?
  
-    init(getInTouchInfo: GetInTouchInfo?) {
+    init(getInTouchInfo: ResortInfo?) {
         self.getInTouchInfo = getInTouchInfo
     }
 }
